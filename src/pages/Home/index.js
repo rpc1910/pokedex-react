@@ -60,7 +60,7 @@ export default function Home() {
           type="text"
           placeholder="Enter pokemon number or name"
           value={pokemon}
-          onChange={({ target }) => setPokemon(target.value)}
+          onChange={({ target }) => setPokemon(target.value.toLowerCase())}
           onKeyUp={({ keyCode }) => keyCode === 13 && handleSearch()}
         />
         <button type="button" onClick={handleSearch}>

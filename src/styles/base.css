@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  min-height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  background: #f5f5f5;
+  -webkit-font-smoothing: antialiased !important;
+}
+body,
+input,
+button {
+  color: #222;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+}
+button {
+  cursor: pointer;
+}
+header {
+  display: block;
+  text-align: center;
+  padding: 50px 0;
+}
+.btn {
+  background: #395ea9;
+  color: #ffcb05;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #395ea9;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  background: #fff;
+  text-transform: capitalize;
+  border: 1px solid #f5f5f5;
+}
+
+table th {
+  font-weight: bold;
+  background: #395ea9;
+  color: #fff;
+  font-size: 20px;
+}
+
+table tr:nth-child(odd) td {
+  background: #f9f9f9;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #333;
+  font-style: italic;
+}
+footer a {
+  color: #333;
+  text-decoration: none;
+}

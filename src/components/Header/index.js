@@ -5,7 +5,7 @@ import logo from '../../assets/logo-pokemon.svg';
 
 export default function Header() {
   return (
-    <header>
+    <header data-testid="header">
       <Link to="/">
         <img src={logo} alt="Pokedex" />
       </Link>

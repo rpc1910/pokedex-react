@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer data-testid="footer">
       Developed by{' '}
       <a href="https://www.rodrigopassos.com.br" target="_blank">
         Rodrigo Passos

@@ -4,7 +4,7 @@ This application was created to study React JS and React Hooks.
 
 ## Demo
 
-- https://rpc1910-pokedex.herokuapp.com/
+- https://pokedex-react.now.sh/
 
 ## Author
 
